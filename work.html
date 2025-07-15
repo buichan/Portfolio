@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Port+Lligat+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Kaisei+Decol&family=Kiwi+Maru&family=M+PLUS+1:wght@100..900&family=Port+Lligat+Slab&family=Zen+Kaku+Gothic+Antique&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+<div id="wrap">
+    <header>
+		<li><a href="index.html"><h1>Portfolio</h1></a></li>
+        <nav>
+            <ul>
+                <li><a href="work.html">WORKS</a></li>
+              </ul>
+        </nav>
+    </header>
+    <main>
+
+		<div class="setumei">
+       <img src="images/setumei2.jpg" alt="画像">
+	   </div>
+
+        <section class="sec02">
+			<h2>Comitia</h2>
+			<br>
+			<p>コミティアで出店した合同誌の作品の一部です。<br>
+			<p>合同誌のテーマは「架空のVtuber」でそれぞれ1キャラずつ制作して掲載しました。</p>	
+			<p>私が制作したのは「デイジー」というキャラクターで、彼女は発達未満の人工知能という設定です。</p>
+		 <div class="container">
+                <img src="images/daisy hyousi.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/daisy tatie.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/daisyana.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/daisyill.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/daisy 1.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/daisy mannga.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+			</div>
+		</section>
+        
+		<!-- モーダル -->
+<div id="imageModal" class="modal" onclick="hideModal()">
+	<img id="modalImage" src="images/daisy hyousi.jpg" alt="拡大画像">
+  </div>
+
+        <section class="sec02">
+			<h2>Illustrat</h2>
+			<br>
+			<p>趣味で制作している作品の一部です。<br>
+				<p>全てオリジナルキャラクターで、Xのアカウントで掲載しています。</p>	
+				<p>アイビスペイントやプロクリエイトで制作をしています。</p>
+			<div class="container">
+                <img src="images/stanlypost.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/stanly hall.png" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/stanly.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/Betty.png" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/stanlyseibu.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/yugao.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/scavin.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/cometp.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/scapri.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/scatann.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/sacamucha.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/scamon.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+			</div>
+		</section>
+
+        
+        <section class="sec02">
+			<h2>Illustrator</h2>
+			<br>
+			<p>授業と趣味で再作したものです。<br>
+			<p>少し懐かしくて可愛いものを作ることを意識しています。</p>	
+			<div class="container">
+				<img src="images/otenki.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/aic.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/aiusa.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+            </div>
+		</section>  
+
+        
+        <section class="sec02">
+			<h2>Blender</h2>
+			<br>
+			<p>『ミニチュア作りで楽しくはじめる 10日でBlender 4入門』を参考にして制作した作品。<br>
+			<div class="container">
+				<img src="images/b3.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/1b.png" alt="画像" class="thumbnail" onclick="showModal(this)">
+				<img src="images/5.b.jpg" alt="画像" class="thumbnail" onclick="showModal(this)">
+            </div>
+		</section>  
+
+    </main>
+</div>
+<script src="script.js"></script>
+<footer>
+    <p>&copy; Kairi Moriyama</p>
+</footer>
+
+</body>
+</html>
